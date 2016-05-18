@@ -6,6 +6,9 @@ class Greeter {
     greet() {
         return "Hello, " + this.greeting;
     }
+    showGreeting() {
+        return "Greeting: " + this.greeting;
+    }
 }
 
 var greeter = new Greeter("world");
